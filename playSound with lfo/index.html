@@ -1,0 +1,13 @@
+<head>
+    <script src = "script.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+    <div>
+        <button onclick="playSound()">play sound</button>
+        <button onclick="c.suspend()">stop sound</button>
+        <input type="range" min="0.01" max="30" step="0.01" oninput="lfo.frequency.value = Number(this.value)"></input>
+    </div>
+</body>
